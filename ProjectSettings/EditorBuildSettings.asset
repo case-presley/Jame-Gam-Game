@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Overworld/NorthPole.unity
+    guid: e3db30ebf6a9195fdac491777ac004e0
+  - enabled: 1
+    path: Assets/Scenes/Overworld/ForestPath.unity
+    guid: c00971140f4d8ef998a0f73f282c68c4
+  - enabled: 1
+    path: Assets/Scenes/Overworld/EvergreenGlade.unity
+    guid: b7a4d3b25bfb805af99e7acee504844c
+  - enabled: 1
+    path: Assets/Scenes/Interiors/NorthPole/PlayersHouse_NP.unity
+    guid: 167ca9c0955182ab69f55668deaa1d60
+  - enabled: 1
+    path: Assets/Scenes/Interiors/NorthPole/SantasHouse_NP.unity
+    guid: 19a4ac7ef4c2025fc81f6da589633ad8
+  - enabled: 1
+    path: Assets/Scenes/Interiors/NorthPole/Stables_NP.unity
+    guid: f442978a2b859fd759af8a29af7e306e
+  - enabled: 1
+    path: Assets/Scenes/Interiors/NorthPole/GeneralStore_NP.unity
+    guid: bcb9700415f997c7484c6cd5e0313f83
+  - enabled: 1
+    path: Assets/Scenes/Interiors/NorthPole/WeaponsStore_NP.unity
+    guid: 9b8556190fee7a732bdb19e6d72926ed
+  - enabled: 1
+    path: Assets/Scenes/Interiors/NorthPole/ArmorersShop_NP.unity
+    guid: a82d1d9e7a034b971bd7b7f45d3d91ee
+  - enabled: 1
+    path: Assets/Scenes/Interiors/ForestPath/SmallHouse_FP.unity
+    guid: efa327e26d18e355580ad76da315f055
+  - enabled: 1
+    path: Assets/Scenes/Interiors/ForestPath/AbandonedCabin_FP.unity
+    guid: 5df643349b7f3fc2f8df585ea23e0b08
+  - enabled: 1
+    path: Assets/Scenes/Interiors/EvergreenGlade/Stables_EG.unity
+    guid: fc1f10c9099f6388484c51f885d996c8
+  - enabled: 1
+    path: Assets/Scenes/Interiors/EvergreenGlade/ArmorersShop_EG.unity
+    guid: daa8f203d7ba3b8d1a0ea01c572373fc
+  - enabled: 1
+    path: Assets/Scenes/Interiors/EvergreenGlade/WeaponsDealer_EG.unity
+    guid: 4949c53fbd8b58d5182b5f5a7c585aab
+  - enabled: 1
+    path: Assets/Scenes/Interiors/EvergreenGlade/GeneralStore_EG.unity
+    guid: 432e12af784b5b10d9b9ccc8b183f0e9
+  - enabled: 1
+    path: Assets/Scenes/Interiors/EvergreenGlade/LeadersHouse_EG.unity
+    guid: 3bcaf71d8df29a437a5d1fd8b7ef41e4
+  - enabled: 1
+    path: Assets/Scenes/Interiors/EvergreenGlade/HermitsHouse_EG.unity
+    guid: 6a55c767b18d1cc05ad862b45b43230e
+  - enabled: 1
+    path: Assets/Scenes/Interiors/EvergreenGlade/ElvishRuins_EG.unity
+    guid: 6a2ba937e8e55da4397c12e89f85d17a
+  - enabled: 1
+    path: Assets/Scenes/Interiors/EvergreenGlade/IcyCaverns_EG.unity
+    guid: 2d8225684f70662be930feec6e460b92
+  - enabled: 1
+    path: Assets/Scenes/Interiors/EvergreenGlade/SmallCave_EG.unity
+    guid: ceece25f03e492af59a350bebf993c29
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0

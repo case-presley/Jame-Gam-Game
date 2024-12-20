@@ -1,0 +1,37 @@
+/Assets/AssetLibrary/
+
+# Ignore the Unity-specific folders
+[Ll]ibrary/
+[Tt]emp/
+[Tt]humbs/
+.idea/
+
+# User-specific files
+*.swp
+*.suo
+*.user
+*.userprefs
+*.log
+
+# Ignore build results
+Build/
+Builds/
+bin/
+obj/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Unity's auto-generated files
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+
+# Ignore AssetLibrary folder
+/Assets/AssetLibrary/
+
+# Ignore IDE-specific files (optional, based on your IDE)
+.vscode/
+.idea/
