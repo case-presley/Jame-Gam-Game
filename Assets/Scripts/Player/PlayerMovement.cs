@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private Rigidbody2D rb;
 
-    public float moveSpeed = 5f; // Speed of player movement
+    private float moveSpeed = 3f;
 
     private Vector2 moveDirection;
 
@@ -36,36 +36,46 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleAnimator()
     {
-        // Reset all movement booleans to false
-        animator.SetBool("isWalkingNorth", false);
-        animator.SetBool("isWalkingEast", false);
-        animator.SetBool("isWalkingSouth", false);
-        animator.SetBool("isWalkingWest", false);
-
         // Prioritize vertical movement
         if (moveDirection.y > 0) // Moving North
         {
-            animator.SetBool("isWalkingNorth", true);
+            animator.SetBool("isNorth", true);
+            animator.SetBool("isEast", false);
+            animator.SetBool("isSouth", false);
+            animator.SetBool("isWest", false);
+            
+            animator.SetBool("isIdle", false);
         }
         else if (moveDirection.y < 0) // Moving South
         {
-            animator.SetBool("isWalkingSouth", true);
+            animator.SetBool("isNorth", false);
+            animator.SetBool("isEast", false);
+            animator.SetBool("isSouth", true);
+            animator.SetBool("isWest", false);
+            
+            animator.SetBool("isIdle", false);
         }
         else if (moveDirection.x > 0) // Moving East
         {
-            animator.SetBool("isWalkingEast", true);
+            animator.SetBool("isNorth", false);
+            animator.SetBool("isEast", true);
+            animator.SetBool("isSouth", false);
+            animator.SetBool("isWest", false);
+            
+            animator.SetBool("isIdle", false);
         }
         else if (moveDirection.x < 0) // Moving West
         {
-            animator.SetBool("isWalkingWest", true);
+            animator.SetBool("isNorth", false);
+            animator.SetBool("isEast", false);
+            animator.SetBool("isSouth", false);
+            animator.SetBool("isWest", true);
+            
+            animator.SetBool("isIdle", false);
         }
-
-        // Set Idle to true only if no other movement booleans are true
-        bool isWalking = animator.GetBool("isWalkingNorth") || 
-                         animator.GetBool("isWalkingEast") || 
-                         animator.GetBool("isWalkingSouth") || 
-                         animator.GetBool("isWalkingWest");
-
-        animator.SetBool("isIdle", !isWalking);
+        else
+        {
+            animator.SetBool("isIdle", true);
+        }
     }
 }
