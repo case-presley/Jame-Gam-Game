@@ -284,6 +284,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 292ce263c80368157848a3afb4647b90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerStats: {fileID: 1103850185}
+  enemyPerception: 2
   combatTestScene: CombatTestScene
 --- !u!212 &349114250
 SpriteRenderer:
@@ -872,6 +874,7 @@ GameObject:
   - component: {fileID: 1103850180}
   - component: {fileID: 1103850179}
   - component: {fileID: 1103850184}
+  - component: {fileID: 1103850185}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -1047,6 +1050,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac43eb302a26168a98783ca52323c818, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1103850185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103850178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e255c989c1cb12589b76bd43a32941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attributes:
+    Strength: 0
+    Constitution: 0
+    Intelligence: 0
+    Charisma: 0
+    Luck: 0
+    Perception: 0
+  Level: 1
+  Experience: 0
+  NextLevelXP: 100
 --- !u!1 &1548848896
 GameObject:
   m_ObjectHideFlags: 0

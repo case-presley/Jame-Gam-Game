@@ -68,6 +68,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Interiors/EvergreenGlade/SmallCave_EG.unity
     guid: ceece25f03e492af59a350bebf993c29
+  - enabled: 1
+    path: Assets/Scenes/Testing/TestScene.unity
+    guid: def1e8bb6cd8af7e0b918a20bb87e236
+  - enabled: 1
+    path: Assets/Scenes/Testing/CombatTestScene.unity
+    guid: 31751830c703839dba975cdf8012af26
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

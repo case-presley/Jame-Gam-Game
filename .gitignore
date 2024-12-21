@@ -1,6 +1,10 @@
 /Assets/AssetLibrary/
 /Assets/ElvGames
 /Assets/ElvGames.meta
+/Assets/TextMesh Pro
+/Assets/TextMesh Pro.meta
+/Assets/Animations.meta
+/Assets/AssetLibrary.meta
 
 # Ignore the Unity-specific folders
 [Ll]ibrary/
